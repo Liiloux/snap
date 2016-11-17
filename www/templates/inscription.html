@@ -1,0 +1,9 @@
+<ion-view id="formInsc">
+	<h1>Bienvenue sur My Snapchat !</h1>
+    <label>Entrer votre email</label>
+    <input type="email" name="mail" ng-model="mail" placeholder="Email">
+    <label>Entrer votre mot de passe</label>
+    <input type="password" name="password" ng-model="password" placeholder="Mot de Passe">
+    <input ng-click="send()" type="submit" name="submit">
+    <button ng-click="go('/connexion')">Se Connecter</button>
+</ion-view>
